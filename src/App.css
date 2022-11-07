@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  ---text-color: #000000;
+  --box-backgraund: #c4c4c4;
+}
+body {
+  margin: auto;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+  padding: 0px 15px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container nav .box-header .logo {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+header .container nav .box-header .nav-link {
+  margin-top: 90px;
+  margin-bottom: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: var(---text-color);
+}
+header .container nav .box-header .nav-link:hover {
+  transition: 0.4s;
+  color: red;
+}
+/* section */
+section .container {
+  background: url(imgs/bcimage.png);
+  background-size: cover;
+  max-width: 1390px;
+  height: 600px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+}
+section .container .row .about-h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 338px;
+  color: #494949;
+}
+/* Main */
+main .box {
+  width: 330px;
+  height: 330px;
+  background: var(--box-backgraund);
+  margin-bottom: 40px;
+}
+main .box h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: var(---text-color);
+  margin-left: 38px;
+}
+main .box p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(---text-color);
+  width: 239px;
+  margin-left: 50px;
+  margin-bottom: 26px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+/* footer */
+footer {
+  background: var(--box-backgraund);
+  color: var(---text-color);
+}
+footer .container .row p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #000000;
+}
